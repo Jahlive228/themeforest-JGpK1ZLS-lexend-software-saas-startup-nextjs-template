@@ -24,7 +24,6 @@ export default function Hero() {
                    Track productivity, manage operations, and automate workflows — all in real time.
                     <br className="d-none lg:d-block" />
                     Build custom tools and deploy on cloud or on-premise.
-                     Build custom tools and deploy on cloud or on-premise.
                   </p>
                   {/* <div className="vstack gap-1 mt-2 xl:mt-4">
                     <form
