@@ -37,7 +37,7 @@ export default function HomePage5() {
                     data-anime="onview: -100; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
                   >
                     <p className="fs-6 sm:fs-5 lg:fs-4 xl:fs-3 fw-medium">
-                     Trusted by forward-thinking teams in operations, HR, compliance, and IT 
+                     Trusted by forward-thinking teams in operations, HR, compliance, and IT Trusted by forward-thinking teams in operations, HR, compliance, and IT 
                     </p>
                     <div className="block-panel panel">
                       <div className="element-brands text-black dark:text-white mask-x">
