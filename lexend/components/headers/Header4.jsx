@@ -99,7 +99,7 @@ export default function Header4() {
                     <Image
                       className="dark:d-none"
                       alt="Lexend"
-                      src="/assets/images/common/logo-light.svg"
+                      src="/assets/images/common/teamob_logo.png"
                       width="117"
                       height="40"
                     />

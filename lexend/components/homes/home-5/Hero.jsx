@@ -160,7 +160,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/template/hero-05.jpg"
+                      src="/assets/images/template/hero.png"
                       width="1184"
                       height="1280"
                     />
@@ -170,13 +170,13 @@ export default function Hero() {
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ top: "20%" }}
                   >
-                    <Image
+                    {/* <Image
                       alt="Countries"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [-100, 0];"
-                      src="/assets/images/template/hero-05-countries.png"
+                      src="/assets/images/template/hero-05.png"
                       width="710"
                       height="854"
-                    />
+                    /> */}
                   </div>
                   <div
                     className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-300px d-none sm:d-block"
