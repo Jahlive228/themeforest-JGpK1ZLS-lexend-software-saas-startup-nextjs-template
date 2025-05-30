@@ -19,10 +19,10 @@ export default function Features() {
                 Features
               </span> */}
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                From Ready Modules to Custom Solutions — Solve It Your Way
+                 Pick What You Need, Add as You Grow
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Start with our core modules — then build automations, dashboards, and internal tools tailored to your processes using the Creator Module.
+               Start with the essentials — attendance, tasks, assets — and expand into automation, analytics, , AI and custom app design. Everything works together. Everything adapts to you.
               </p>
             </div>
             <div

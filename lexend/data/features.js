@@ -236,57 +236,75 @@ export const featureItems = [
 export const featureItems2 = [
   {
     order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/zap.svg",
+    iconSrc: "/assets/images/common/icons/calendar.png",
     alt: "feature-icon",
-    title: "Track Remote & Hybrid Teams",
+    title: "Attendance & Shift Management",
     description:
-      "Use attendance, shift, and productivity tracking modules to monitor remote or hybrid workforce effectively — no micromanagement needed.",
+      "Track time, shifts, and logins across locations — reduce absenteeism, enforce policy, and stay audit-ready.",
   },
   {
     order: "order-0",
-    iconSrc: "/assets/images/common/icons/database.svg",
+    iconSrc: "/assets/images/common/icons/moni.png",
     alt: "feature-icon",
-    title: "Automate Admin Workflows",
+    title: "Employee Monitoring",
     description:
-      "Eliminate repetitive Excel-based approvals. Build leave management, expense approval, or shift request flows using our drag-and-drop Creator.",
+      "Gain visibility into activity, idle time, and tool usage — protect compliance and improve engagement.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    iconSrc: "/assets/images/common/icons/app.png",
     alt: "feature-icon",
-    title: "Monitor Field & On-Ground Teams",
+    title: "Task/ticket Management",
     description:
-      "Assign location-based tasks and verify with geo check-ins, photo uploads, and real-time status — all through a mobile-friendly custom app.",
+      "Assign, track, and collaborate on tasks — optimize schedules and reduce follow-ups via instant alerts.",
   },
   {
     order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/target.svg",
+    iconSrc: "/assets/images/common/icons/line-chart.png",
     alt: "feature-icon",
-    title: "KPI-Based Performance Reviews",
+    title: "Productivity & Performance Insightss",
     description:
-      "Bring your KPI reviews and compliance metrics into live dashboards. Set alerts, visualize trends, and stop chasing data in emails.",
+      "Measure effort vs. output, address skill gaps, and drive team performance with KPI dashboards and trend reports",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
   {
     order: "order-3 lg:order-0",
-    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    iconSrc: "/assets/images/common/icons/asset.png",
     alt: "feature-icon",
-    title: "Simplify Asset Requests & Ticketing",
+    title: "IT Asset & Inventory Tracker",
     description:
-      "Track IT assets and allow employees to raise requests using a fully configurable form-based system linked with inventory and alerts.",
+      "Scan, monitor, and manage assets — detect hardware/software changes, track lifecycle, and enforce software policies.",
   },
   {
     order: "order-2 lg:order-0",
-    iconSrc: "/assets/images/common/icons/settings.svg",
+    iconSrc: "/assets/images/common/icons/check.png",
     alt: "feature-icon",
-    title: "Forecast Effort & Improve Outcomes",
+    title: "Mobile App for Field Teams",
     description:
-      "Use tracked time and output data to get smart alerts, identify bottlenecks, and predict productivity risks — powered by TeamOB's AI assistant.",
+      "Enable GPS check-ins, mobile task updates, and real-time attendance for on-ground and remote staff",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/design.png",
+    alt: "feature-icon",
+    title: "Creator Module (Build Your Own Tools)",
+    description:
+      "Build leave apps, approval flows, CRMs — create anything your team needs using our visual app engine.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/ai.png",
+    alt: "feature-icon",
+    title: "AI Assistant & Smart Alerts",
+    description:
+      "Get predictive insights, identify risks, and make faster decisions with contextual AI-driven recommendations.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
   
 ];
