@@ -1,62 +1,62 @@
 export const brands = [
   {
     id: 1,
-    src: "/assets/images/brands/brand-01.svg",
+    src: "/assets/images/brands/brand-img1.jpg",
     alt: "Proline",
   },
   {
     id: 2,
-    src: "/assets/images/brands/brand-02.svg",
+    src: "/assets/images/brands/brand-img2.jpg",
     alt: "Iceberg",
   },
   {
     id: 3,
-    src: "/assets/images/brands/brand-03.svg",
+    src: "/assets/images/brands/brand-img3.jpg",
     alt: "PinPoint",
   },
   {
     id: 4,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/brand-img4.jpg",
     alt: "Clues",
   },
   {
     id: 5,
-    src: "/assets/images/brands/brand-05.svg",
+    src: "/assets/images/brands/brand-img05.jpg",
     alt: "Snowflake",
   },
   {
     id: 6,
-    src: "/assets/images/brands/brand-06.svg",
+    src: "/assets/images/brands/brand-img06.jpg",
     alt: "Proline",
   },
   {
     id: 7,
-    src: "/assets/images/brands/brand-01.svg",
+    src: "/assets/images/brands/brand-img07.jpg",
     alt: "Proline",
   },
   {
     id: 8,
-    src: "/assets/images/brands/brand-02.svg",
+    src: "/assets/images/brands/brand-img08.jpg",
     alt: "Iceberg",
   },
   {
     id: 9,
-    src: "/assets/images/brands/brand-03.svg",
+    src: "/assets/images/brands/brand-img09.jpg",
     alt: "PinPoint",
   },
   {
     id: 10,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/brand-img1.jpg",
     alt: "Clues",
   },
   {
     id: 11,
-    src: "/assets/images/brands/brand-05.svg",
+    src: "/assets/images/brands/brand-img2.jpg",
     alt: "Snowflake",
   },
   {
     id: 12,
-    src: "/assets/images/brands/brand-06.svg",
+    src: "/assets/images/brands/brand-img3.jpg",
     alt: "Proline",
   },
 ];
