@@ -18,7 +18,7 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2">
-                    The Productivity + Operations Platform Built for Distributed Team
+                    The Productivity + Operations Platform 
                   </h1>
                   <p className="fs-6 xl:fs-4">
                    Track productivity, manage operations, and automate workflows — all in real time.
@@ -160,7 +160,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/template/hero.png"
+                      src="/assets/images/template/hero1.png"
                       width="1184"
                       height="1280"
                     />
