@@ -7,9 +7,12 @@ import { featuresMenu, services } from "@/data/services";
 export default function Nav3() {
   return (
     <>
+    <li>
+        <Link href={`/page-pricing`}>HOME</Link>
+      </li>
       <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          SOLUTIONS{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -148,7 +151,7 @@ export default function Nav3() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          RESOURCES{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -236,7 +239,7 @@ export default function Nav3() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Learn{" "}
+          BLOG{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -341,15 +344,15 @@ export default function Nav3() {
           </div>
         </div>
       </li>
-      <li>
+      {/* <li>
         <Link href={`/page-pricing`}>Pricing</Link>
-      </li>
+      </li> */}
       <li>
         <a
           href="https://themeforest.net/user/ib-themes/portfolio"
           target="_blank"
         >
-          Buy now
+          ABOUT US
         </a>
       </li>
     </>
