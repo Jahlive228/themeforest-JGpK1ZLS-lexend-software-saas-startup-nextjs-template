@@ -15,16 +15,14 @@ export default function Features() {
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
+              {/* <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
                 Features
-              </span>
+              </span> */}
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Recognized by the experts
+                From Ready Modules to Custom Solutions — Solve It Your Way
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+                Start with our core modules — then build automations, dashboards, and internal tools tailored to your processes using the Creator Module.
               </p>
             </div>
             <div

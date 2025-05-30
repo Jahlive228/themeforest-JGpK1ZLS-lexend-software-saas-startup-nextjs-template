@@ -238,17 +238,17 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Track Remote & Hybrid Teams",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Use attendance, shift, and productivity tracking modules to monitor remote or hybrid workforce effectively — no micromanagement needed.",
   },
   {
     order: "order-0",
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Automate Admin Workflows",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Eliminate repetitive Excel-based approvals. Build leave management, expense approval, or shift request flows using our drag-and-drop Creator.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
@@ -256,17 +256,17 @@ export const featureItems2 = [
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "Monitor Field & On-Ground Teams",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Assign location-based tasks and verify with geo check-ins, photo uploads, and real-time status — all through a mobile-friendly custom app.",
   },
   {
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "KPI-Based Performance Reviews",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Bring your KPI reviews and compliance metrics into live dashboards. Set alerts, visualize trends, and stop chasing data in emails.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
@@ -274,20 +274,21 @@ export const featureItems2 = [
     order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "Simplify Asset Requests & Ticketing",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Track IT assets and allow employees to raise requests using a fully configurable form-based system linked with inventory and alerts.",
   },
   {
     order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "Forecast Effort & Improve Outcomes",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Use tracked time and output data to get smart alerts, identify bottlenecks, and predict productivity risks — powered by TeamOB's AI assistant.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },
+  
 ];
 
 export const features5 = [

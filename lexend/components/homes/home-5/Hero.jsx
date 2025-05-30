@@ -30,7 +30,7 @@ export default function Hero() {
                       onSubmit={(e) => e.preventDefault()}
                       className="row child-cols g-1"
                     >
-                      <div>
+                      {/* <div>
                         <div className="form-group inline-block">
                           <input
                             type="email"
@@ -39,14 +39,14 @@ export default function Hero() {
                             required
                           />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-12 sm:col-auto">
                         <button className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white">
-                          Get a demo
+                          Request Demo
                         </button>
                       </div>
                     </form>
-                    <p className="fs-7 text-dark dark:text-white text-opacity-70">
+                    {/* <p className="fs-7 text-dark dark:text-white text-opacity-70">
                       We care about your data in our
                       <Link
                         href={`/page-privacy`}
@@ -55,9 +55,9 @@ export default function Hero() {
                         privacy policy
                       </Link>
                       .
-                    </p>
+                    </p> */}
                   </div>
-                  <div className="vstack md:hstack justify-center lg:justify-start gap-2 mt-2 xl:mt-4 fdr">
+                  {/* <div className="vstack md:hstack justify-center lg:justify-start gap-2 mt-2 xl:mt-4 fdr">
                     <div className="hstack justify-center gap-0">
                       <Image
                         alt="Avatar-image"
@@ -148,7 +148,7 @@ export default function Hero() {
                         Based on 200+ reviews
                       </span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="sm:col-auto">
