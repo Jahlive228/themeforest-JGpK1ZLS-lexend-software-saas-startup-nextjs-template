@@ -6416,7 +6416,7 @@ textarea.form-control-lg {
 .hover\:text-primary:hover,
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color:#2b3a8f;
 }
 .text-secondary {
   --bs-text-opacity: 1;

@@ -7,17 +7,18 @@ import Faq from "@/components/homes/home-5/Faq";
 import Features from "@/components/homes/home-5/Features";
 import Hero from "@/components/homes/home-5/Hero";
 import Howworks from "@/components/homes/home-5/Howworks";
-import Pricing from "@/components/homes/home-5/Pricing";
 import Support from "@/components/homes/home-5/Support";
 import Team from "@/components/homes/home-5/Team";
 import Testimonials from "@/components/homes/home-5/Testimonials";
 import React from "react";
+
 export const metadata = {
   title:
     "Home 5 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
+
 export default function HomePage5() {
   return (
     <>
@@ -53,7 +54,6 @@ export default function HomePage5() {
           <hr className="w-100 m-0 d-block lg:d-none" />
           <Cta />
           <Howworks />
-          <Pricing />
           <Testimonials />
           <Faq />
           <Support />

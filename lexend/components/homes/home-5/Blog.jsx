@@ -1,14 +1,55 @@
 "use client";
 
-import { posts } from "@/data/blogs";
 import { Navigation } from "swiper/modules";
 import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Blog() {
+  const posts = [
+    {
+      id: 1,
+      title: "15 features of TeamOB to increase your business efficiency",
+      excerpt: "TeamOB helps team members to manage their work, increase work efficiency. TeamOB can track time of team members efficiently to increase productivity, whether your team is in office or working from remote places.",
+      image: "/assets/images/template/blog-01.jpg",
+      alt: "Business Efficiency Features",
+      readMoreLink: "Features-of-TeamOB"
+    },
+    {
+      id: 2,
+      title: "Is it ethical to monitor employee computer usage?",
+      excerpt: "Monitoring practice that is considered unethical, is monitoring employees without their knowledge or consent. To avoid this, always make sure your employees are aware of employee monitoring software. Create a monitoring policy with detailed consent forms.",
+      image: "/assets/images/template/blog-02.jpg",
+      alt: "Ethical Monitoring",
+      readMoreLink: "Computer-Usage"
+    },
+    {
+      id: 3,
+      title: "Future of Remote Work in India",
+      excerpt: "Research firm Gartner suggests that India will produce one of the largest number of remote workers with one-third employees working remotely by 2022. By the end of 2021, 51% of all knowledge workers worldwide are expected to be working remotely.",
+      image: "/assets/images/template/blog-03.jpg",
+      alt: "Remote Work Future",
+      readMoreLink: "Remote-Work"
+    },
+    {
+      id: 4,
+      title: "How to use TeamOB BI Report to increase productivity?",
+      excerpt: "The TeamOB Business Intelligence Report is the use of your data to make intelligent business decisions. Learn how to leverage BI reports for better productivity and decision making.",
+      image: "/assets/images/template/blog-04.jpg",
+      alt: "BI Report Usage",
+      readMoreLink: "TeamOB-BI-Report"
+    },
+    {
+      id: 5,
+      title: "Time tracking in hybrid work culture",
+      excerpt: "Hybrid work means that employees split their workdays between home and office space. Over the past year, many leading businesses announced that hybrid and remote work is here to stay, becoming a permanent fixture in the business world.",
+      image: "/assets/images/template/blog-05.jpg",
+      alt: "Hybrid Work Culture",
+      readMoreLink: "Tracking-in-hybrid-work-culture"
+    }
+  ];
+
   const swiperOptions = {
-    // Default options
     slidesPerView: 1.1,
     spaceBetween: 16,
     loop: true,
@@ -17,25 +58,22 @@ export default function Blog() {
       prevEl: ".swiper-nav-prev",
     },
     modules: [Navigation],
-    // Responsive breakpoints
     breakpoints: {
-      // Small devices
       640: {
         slidesPerView: 2.3,
         spaceBetween: 24,
       },
-      // Medium devices
       768: {
         slidesPerView: 3.22,
         spaceBetween: 24,
       },
-      // Large devices
       1024: {
         slidesPerView: 3.22,
         spaceBetween: 32,
       },
     },
   };
+
   return (
     <div
       id="blog_posts"
@@ -57,10 +95,9 @@ export default function Blog() {
                     <span className="fw-bold text-primary dark:text-secondary">
                       Latest posts
                     </span>
-                    <h2 className="title h3 xl:h2 m-0">Latest from insights</h2>
+                    <h2 className="title h3 xl:h2 m-0">Select Process Management System For Your Business</h2>
                     <p className="desc fs-6 sm:fs-5 xl:fs-4 opacity-70">
-                      Interviews, tips, guides, industry best practices, and
-                      news.
+                      Stay updated with our latest insights on remote work, productivity monitoring, and business intelligence.
                     </p>
                   </div>
                   <div className="d-none sm:d-block">
@@ -88,7 +125,7 @@ export default function Blog() {
                               alt={post.alt}
                             />
                             <Link
-                              href={`/blog-details/${post.id}`}
+                              href={`/blog/${post.readMoreLink}`}
                               className="position-cover"
                               data-caption={post.title}
                             ></Link>
@@ -96,7 +133,7 @@ export default function Blog() {
                           <div className="panel vstack gap-1">
                             <Link
                               className="text-none"
-                              href={`/blog-details/${post.id}`}
+                              href={`/blog/${post.readMoreLink}`}
                             >
                               <h3 className="post-title h5 xl:h4 m-0 ltr:pe-4 rtl:ps-4">
                                 <span>{post.title}</span>
@@ -106,10 +143,10 @@ export default function Blog() {
                               {post.excerpt}
                             </p>
                             <Link
-                              href={`/blog-details/${post.id}`}
+                              href={`/blog/${post.readMoreLink}`}
                               className="uc-link dark:text-secondary fs-7 xl:fs-6 fw-bold hstack gap-1 sm:mt-1 xl:mt-2"
                             >
-                              <span>Read post</span>
+                              <span>Read More</span>
                               <i className="position-relative icon unicon-arrow-up-right fw-bold rtl:-rotate-90 translate-y-px" />
                             </Link>
                           </div>

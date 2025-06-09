@@ -1,7 +1,43 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 export default function Testimonials() {
+  const testimonials = [
+    {
+      text: "I run online business. I found it difficult to manage my remote and inhouse teams. Thank you very much TeamOB.",
+      author: "Prashant Agrawal",
+      position: "Myweb, India",
+      image: "/assets/images/testimonial-2.jpg"
+    },
+    {
+      text: "One of the best employee monitoring system with Attractive pricing and an efficient user interface make Teamob a solid employee monitoring and analytics tool that's squarely focused on worker productivity.",
+      author: "Sanjivani Gautam Sanyal",
+      position: "SGSites, India",
+      image: "/assets/images/testimonial-1.jpg"
+    },
+    {
+      text: "Absolutely love this! TeamOB helped us to monitor the team. Our productivity has doubled.",
+      author: "Bjorn Ov",
+      position: "Egoria, Norw",
+      image: "/assets/images/testimonial-3.jpg"
+    },
+    {
+      text: "TeamOB is one of the best time saving tool that we have ever used in the long time. Now it is easy for us to get crucial informations easily. Their support is also excellent.",
+      author: "Prabha Associates",
+      position: "Axxisinfomix, India",
+      image: "/assets/images/testimonial-4.jpg"
+    }
+  ];
+
   return (
     <div
       id="clients_feedbacks"
@@ -14,50 +50,55 @@ export default function Testimonials() {
               className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <div
-                className="row child-cols-12 justify-center col-match g-2 lg:g-3"
-                data-uc-grid=""
+              <div className="w-full">
+                <Swiper
+                  modules={[Autoplay, Pagination]}
+                  spaceBetween={30}
+                  slidesPerView={1}
+                  autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                  }}
+                  pagination={{
+                    clickable: true,
+                    bulletClass: 'swiper-pagination-bullet !bg-primary dark:!bg-white',
+                    bulletActiveClass: 'swiper-pagination-bullet-active !bg-primary dark:!bg-white',
+                  }}
+                  className="testimonials-slider"
               >
-                <div>
+                  {testimonials.map((testimonial, index) => (
+                    <SwiperSlide key={index}>
                   <div className="panel vstack justify-center gap-3 rounded-2 bg-secondary dark:bg-white dark:bg-opacity-5 overflow-hidden text-center">
                     <div className="panel vstack justify-center gap-3 px-3 py-4 lg:px-5 lg:py-6">
                       <div className="panel vstack items-center gap-2">
                         <div className="panel">
-                          <div className="hstack h-48px">
+                              <div className="h-48px w-48px rounded-full overflow-hidden">
                             <Image
-                              className="w-128px dark:d-none"
-                              alt="Brand"
-                              src="/assets/images/brands/brand-01.svg"
-                              width="165"
-                              height="48"
-                            />
-                            <Image
-                              className="w-128px d-none dark:d-inline-flex"
-                              alt="Brand"
-                              src="/assets/images/brands/brand-01-dark.svg"
-                              width="165"
-                              height="48"
+                                  src={testimonial.image}
+                                  alt={testimonial.author}
+                                  width={48}
+                                  height={48}
+                                  className="w-full h-full object-cover"
                             />
                           </div>
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
-                          “We’re looking for people who share our vision! most
-                          of our time used to be taken up by most of alternate
-                          administrative work whereas now we can focus on
-                          building out to help our employees.”
+                              "{testimonial.text}"
                         </p>
                       </div>
                       <div className="panel mt-2 lg:mt-4">
                         <div className="panel vstack items-center gap-0 lg:gap-1">
-                          <h6 className="h6 lg:h5 m-0">Anna Yon</h6>
+                              <h6 className="h6 lg:h5 m-0">{testimonial.author}</h6>
                           <span className="fs-7 lg:h6 opacity-70">
-                            Senior UI/UX Designer
+                                {testimonial.position}
                           </span>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
               </div>
               <a
                 href="#"
