@@ -12,10 +12,12 @@ export default function Footer4() {
           <div className="container max-w-xl">
             <div className="uc-footer-inner panel vstack lg:hstack justify-between items-center text-center ltr:lg:text-start rtl:lg:text-end gap-3 sm:gap-4">
               <div className="vstack gap-2">
-                <h2 className="h3 xl:h2 m-0">Sign up now or never!</h2>
+                <h2 className="h3 xl:h2 m-0">Save 30% Work Hour every week</h2>
                 <p className="fs-6 xl:fs-4 text-dark dark:text-white text-opacity-70 dark:text-white">
-                  Stay up to date with the latest news, announcements, and
-                  articles.
+                  By implementing TeamOB's Workforce Productivity and Automation Solutions.
+                </p>
+                <p className="fs-6 xl:fs-4 text-dark dark:text-white text-opacity-70 dark:text-white">
+                  Progress through process. We are committed to helping you stay focused, plan effectively, optimize cost and generate more revenue in your business Connect your enterprise and modernize operations to transform your business.
                 </p>
               </div>
               <div className="panel w-100 sm:w-350px xl:w-450px">
@@ -23,7 +25,7 @@ export default function Footer4() {
                   onSubmit={(e) => e.preventDefault()}
                   className="row child-cols g-1"
                 >
-                  <div>
+                  {/* <div>
                     <div className="form-group inline-block">
                       <input
                         type="email"
@@ -32,10 +34,10 @@ export default function Footer4() {
                         required
                       />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-12 sm:col-auto">
                     <button className="btn btn-md btn-primary rounded-default w-full h-48px text-white">
-                      Subscribe
+                      Get Started
                     </button>
                   </div>
                 </form>
@@ -49,7 +51,7 @@ export default function Footer4() {
               <div className="uc-footer-widgets panel">
                 <div className="row child-cols-6 md:child-cols col-match g-4">
                   <div className="col-12 lg:col-4">
-                    <div className="panel vstack items-start gap-3 xl:gap-4 ltr:md:pe-8 rtl:md:ps-8">
+                    {/* <div className="panel vstack items-start gap-3 xl:gap-4 ltr:md:pe-8 rtl:md:ps-8">
                       <div>
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
@@ -66,7 +68,7 @@ export default function Footer4() {
                         </p>
                       </div>
                       <LanguageSelect />
-                    </div>
+                    </div> */}
                   </div>
                   {footerLinks3.map((section, index) => (
                     <div key={index} className={section.extraClass || ""}>
@@ -92,7 +94,7 @@ export default function Footer4() {
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                 © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x justify-center gap-2 text-gray-300">
                   {socialLinks.map((link, index) => (
