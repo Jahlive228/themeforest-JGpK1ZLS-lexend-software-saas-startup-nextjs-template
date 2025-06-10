@@ -16,25 +16,25 @@ export default function Testimonials() {
       text: "I run online business. I found it difficult to manage my remote and inhouse teams. Thank you very much TeamOB.",
       author: "Prashant Agrawal",
       position: "Myweb, India",
-      image: "/assets/images/testimonial-2.jpg"
+      image: "/assets/images/prashant.png"
     },
     {
       text: "One of the best employee monitoring system with Attractive pricing and an efficient user interface make Teamob a solid employee monitoring and analytics tool that's squarely focused on worker productivity.",
       author: "Sanjivani Gautam Sanyal",
       position: "SGSites, India",
-      image: "/assets/images/testimonial-1.jpg"
+      image: "/assets/images/sanyal.png"
     },
     {
       text: "Absolutely love this! TeamOB helped us to monitor the team. Our productivity has doubled.",
       author: "Bjorn Ov",
       position: "Egoria, Norw",
-      image: "/assets/images/testimonial-3.jpg"
+      image: "/assets/images/image.png"
     },
     {
       text: "TeamOB is one of the best time saving tool that we have ever used in the long time. Now it is easy for us to get crucial informations easily. Their support is also excellent.",
       author: "Prabha Associates",
       position: "Axxisinfomix, India",
-      image: "/assets/images/testimonial-4.jpg"
+      image: "/assets/images/sanyal.png"
     }
   ];
 
