@@ -43,7 +43,7 @@ export default function Blog() {
       id: 5,
       title: "Time tracking in hybrid work culture",
       excerpt: "Hybrid work means that employees split their workdays between home and office space. Over the past year, many leading businesses announced that hybrid and remote work is here to stay, becoming a permanent fixture in the business world.",
-      image: "/assets/images/template/co-operate-office.jpg",
+      image: "/assets/images/template/how-we-work.jpg",
       alt: "Hybrid Work Culture",
       readMoreLink: "Tracking-in-hybrid-work-culture"
     }

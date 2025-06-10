@@ -50,8 +50,8 @@ export default function Footer4() {
             <div className="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
               <div className="uc-footer-widgets panel">
                 <div className="row child-cols-6 md:child-cols col-match g-4">
-                  <div className="col-12 lg:col-4">
-                    {/* <div className="panel vstack items-start gap-3 xl:gap-4 ltr:md:pe-8 rtl:md:ps-8">
+                  {/* <div className="col-12 lg:col-4">
+                    <div className="panel vstack items-start gap-3 xl:gap-4 ltr:md:pe-8 rtl:md:ps-8">
                       <div>
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
@@ -68,8 +68,8 @@ export default function Footer4() {
                         </p>
                       </div>
                       <LanguageSelect />
-                    </div> */}
-                  </div>
+                    </div>
+                  </div> */}
                   {footerLinks3.map((section, index) => (
                     <div key={index} className={section.extraClass || ""}>
                       <ul className="nav-y gap-2 fw-medium">

@@ -11,35 +11,35 @@ export default function Features() {
       id: 1,
       title: "3 Reasons to Embrace Time Tracking Software",
       description: "Are you a business owner dwindling with the idea of whether or not to purchase the right Time tracking software for your business? Although using employee productivity monitoring software is often seen as a tool for managers, it is far from being solely that! Your employees no longer need to dread such software and instead should embrace it.",
-      image: "/assets/images/template/feature-image-01.jpg",
+      image: "/assets/images/template/work1.jpg",
       readMoreLink: "Time-Tracking-Software"
     },
     {
       id: 2,
       title: "Time Tracking in Hybrid Work Culture",
       description: "Hybrid work means that employees split their workdays between home and office space. Over the past year, many leading businesses announced that hybrid and remote work is here to stay. Although the pandemic served as the biggest factor in this shift, remote and hybrid work settings are increasingly becoming a permanent fixture.",
-      image: "/assets/images/template/feature-image-02.jpg",
+      image: "/assets/images/template/work2.jpg",
       readMoreLink: "Tracking-in-hybrid-work-culture"
     },
     {
       id: 3,
       title: "The Perfect Way to Manage Remote Teams",
       description: "With remote work taking precedence over the last year and a half, there's been plenty of room for the fluidity of work. However, with this day in and out subjecting oneself to remote working, it can be hard to ascertain one's productivity and keeping a steady head on deadlines and meeting them.",
-      image: "/assets/images/template/feature-image-03.jpg",
+      image: "/assets/images/template/work3.jpg",
       readMoreLink: "Attendance-Management-Systems"
     },
     {
       id: 4,
       title: "Employee Analytics & Productivity in BPO",
       description: "Businesses all across the world have been forced to participate in the world's largest work-from-home experiment. For long-term viability, enabling high productivity and performance among a workforce that is still adjusting to the concept of remote working has become important.",
-      image: "/assets/images/template/feature-image-04.jpg",
+      image: "/assets/images/template/work4.jpg",
       readMoreLink: "Productivity-Insight-In-bpo"
     },
     {
       id: 5,
       title: "Business Intelligence & Visual Analytics",
       description: "Companies have depended on business intelligence reporting (BI)— the tools and activities used to evaluate company data and turn it into actionable insights—increasingly in recent years to make better-informed and more valued decisions. This method necessitates gathering as much data as possible through analytical reporting.",
-      image: "/assets/images/template/feature-image-05.jpg",
+      image: "/assets/images/template/co-operate-office.jpg",
       readMoreLink: "Visual-Analytics-Reporting"
     }
   ];
