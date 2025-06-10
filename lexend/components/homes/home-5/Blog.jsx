@@ -11,7 +11,7 @@ export default function Blog() {
       id: 1,
       title: "15 features of TeamOB to increase your business efficiency",
       excerpt: "TeamOB helps team members to manage their work, increase work efficiency. TeamOB can track time of team members efficiently to increase productivity, whether your team is in office or working from remote places.",
-      image: "/assets/images/template/blog-01.jpg",
+      image: "/assets/images/template/image.png",
       alt: "Business Efficiency Features",
       readMoreLink: "Features-of-TeamOB"
     },
@@ -19,7 +19,7 @@ export default function Blog() {
       id: 2,
       title: "Is it ethical to monitor employee computer usage?",
       excerpt: "Monitoring practice that is considered unethical, is monitoring employees without their knowledge or consent. To avoid this, always make sure your employees are aware of employee monitoring software. Create a monitoring policy with detailed consent forms.",
-      image: "/assets/images/template/blog-02.jpg",
+      image: "/assets/images/template/ethical-to-monitor.jpg",
       alt: "Ethical Monitoring",
       readMoreLink: "Computer-Usage"
     },
@@ -27,7 +27,7 @@ export default function Blog() {
       id: 3,
       title: "Future of Remote Work in India",
       excerpt: "Research firm Gartner suggests that India will produce one of the largest number of remote workers with one-third employees working remotely by 2022. By the end of 2021, 51% of all knowledge workers worldwide are expected to be working remotely.",
-      image: "/assets/images/template/blog-03.jpg",
+      image: "/assets/images/template/future-remote-work.png",
       alt: "Remote Work Future",
       readMoreLink: "Remote-Work"
     },
@@ -35,7 +35,7 @@ export default function Blog() {
       id: 4,
       title: "How to use TeamOB BI Report to increase productivity?",
       excerpt: "The TeamOB Business Intelligence Report is the use of your data to make intelligent business decisions. Learn how to leverage BI reports for better productivity and decision making.",
-      image: "/assets/images/template/blog-04.jpg",
+      image: "/assets/images/template/bi-blog1.jpg",
       alt: "BI Report Usage",
       readMoreLink: "TeamOB-BI-Report"
     },
@@ -43,7 +43,7 @@ export default function Blog() {
       id: 5,
       title: "Time tracking in hybrid work culture",
       excerpt: "Hybrid work means that employees split their workdays between home and office space. Over the past year, many leading businesses announced that hybrid and remote work is here to stay, becoming a permanent fixture in the business world.",
-      image: "/assets/images/template/blog-05.jpg",
+      image: "/assets/images/template/co-operate-office.jpg",
       alt: "Hybrid Work Culture",
       readMoreLink: "Tracking-in-hybrid-work-culture"
     }
