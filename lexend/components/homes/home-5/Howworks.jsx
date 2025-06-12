@@ -56,7 +56,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="Unified Platform Dashboard"
-                          src="/assets/images/template/download-Picsart-AiImageEnhancer.jpg"
+                          src="/assets/images/template/work3.jpg"
                           width="1200"
                           height="1200"
                         />
@@ -110,7 +110,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="TeamOB Platform Features"
-                          src="/assets/images/template/img-Picsart-AiImageEnhancer.jpg"
+                          src="/assets/images/template/work1.jpg"
                           width="1200"
                           height="1200"
                         />
