@@ -1,6 +1,6 @@
 "use client";
 
-const demostrings = ["Bank Account", "Web Payment", " Android & ISO"];
+const demostrings = ["Mobile Money", "Cartes bancaires"];
 import { TypeAnimation } from "react-type-animation";
 export default function TyperComponent({ strings = demostrings }) {
   return (

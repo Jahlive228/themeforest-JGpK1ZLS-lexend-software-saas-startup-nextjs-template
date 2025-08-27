@@ -19,107 +19,153 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 bg-dark text-white dark:bg-primary dark:text-dark rounded-pill">
-                Main Features
+                Nos Solutions
               </span>
               <h2 className="h3 lg:h1 m-0">
-                Automate your workflow with our{" "}
+                Une plateforme complète pour{" "}
                 <span className="text-tertiary dark:text-primary">
-                  1000+ apps integrations
+                  tous vos besoins de paiement
                 </span>
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Connect your tools, connect your teams with Lexend.
+                Des solutions adaptées pour chaque type d'entreprise en Afrique
               </p>
             </div>
             <div
               className="row child-cols-12 md:child-cols-6 col-match g-2 lg:g-4"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              {features10.map((feature, index) => (
-                <div key={index}>
+              <div>
+                <div className="panel vstack lg:hstack gap-2 p-2 overflow-hidden bg-secondary-300 text-gray-900 dark:bg-tertiary-700 dark:bg-gradient-45 from-tertiary to-transparent dark:text-white rounded-2 lg:rounded-3 border border-dark dark:border-white dark:border-opacity-15">
+                  <div className="panel lg:max-w-300px lg:min-w-300px">
+                    <Image
+                      className="rounded-1-5 border border-dark dark:border-white dark:border-opacity-15"
+                      alt="Collect"
+                      src="/assets/images/template/payment-collect.jpg"
+                      width={680}
+                      height={680}
+                    />
+                  </div>
+                  <div className="panel vstack items-start gap-2 p-2">
+                    <h4 className="h4 m-0 text-inherit">Collect</h4>
+                    <p className="m-0">Encaissez des paiements en ligne via Mobile Money, cartes bancaires et wallets en toute sécurité.</p>
+                    <Link
+                      href="/collect"
+                      className="btn btn-sm btn-primary border border-dark px-2 mt-2"
+                    >
+                      <span>En savoir plus</span>
+                      <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div>
+                <div className="panel vstack lg:hstack gap-2 p-2 overflow-hidden bg-secondary-300 text-gray-900 dark:bg-tertiary-700 dark:bg-gradient-45 from-tertiary to-transparent dark:text-white rounded-2 lg:rounded-3 border border-dark dark:border-white dark:border-opacity-15">
+                  <div className="panel lg:max-w-300px lg:min-w-300px">
+                    <Image
+                      className="rounded-1-5 border border-dark dark:border-white dark:border-opacity-15"
+                      alt="Mass Payout"
+                      src="/assets/images/template/mass-payout.jpg"
+                      width={680}
+                      height={680}
+                    />
+                  </div>
+                  <div className="panel vstack items-start gap-2 p-2">
+                    <h4 className="h4 m-0 text-inherit">Mass Payout</h4>
+                    <p className="m-0">Effectuez des transferts groupés vers des comptes Mobile Money et wallets en quelques clics.</p>
+                    <Link
+                      href="/mass-payout"
+                      className="btn btn-sm btn-primary border border-dark px-2 mt-2"
+                    >
+                      <span>En savoir plus</span>
+                      <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
+                    </Link>
+                  </div>
+                </div>
+              </div> */}
+
+              <div>
+                <div className="panel vstack lg:hstack gap-2 p-2 overflow-hidden bg-secondary-300 text-gray-900 dark:bg-tertiary-700 dark:bg-gradient-45 from-tertiary to-transparent dark:text-white rounded-2 lg:rounded-3 border border-dark dark:border-white dark:border-opacity-15">
+                  <div className="panel lg:max-w-300px lg:min-w-300px">
+                    <Image
+                      className="rounded-1-5 border border-dark dark:border-white dark:border-opacity-15"
+                      alt="Payment Links"
+                      src="/assets/images/template/payment-links.jpg"
+                      width={680}
+                      height={680}
+                    />
+                  </div>
+                  <div className="panel vstack items-start gap-2 p-2">
+                    <h4 className="h4 m-0 text-inherit">Liens de Paiement</h4>
+                    <p className="m-0">Créez des liens de paiement uniques et sécurisés pour vos clients, sans compétences techniques.</p>
+                    <Link
+                      href="/payment-links"
+                      className="btn btn-sm btn-primary border border-dark px-2 mt-2"
+                    >
+                      <span>En savoir plus</span>
+                      <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div>
                   <div className="panel vstack lg:hstack gap-2 p-2 overflow-hidden bg-secondary-300 text-gray-900 dark:bg-tertiary-700 dark:bg-gradient-45 from-tertiary to-transparent dark:text-white rounded-2 lg:rounded-3 border border-dark dark:border-white dark:border-opacity-15">
                     <div className="panel lg:max-w-300px lg:min-w-300px">
                       <Image
                         className="rounded-1-5 border border-dark dark:border-white dark:border-opacity-15"
-                        alt={feature.alt}
-                        src={feature.src}
+                      alt="API Integration"
+                      src="/assets/images/template/api-integration.jpg"
                         width={680}
                         height={680}
                       />
                     </div>
                     <div className="panel vstack items-start gap-2 p-2">
-                      <h4 className="h4 m-0 text-inherit">{feature.title}</h4>
-                      <a
-                        href="#"
+                    <h4 className="h4 m-0 text-inherit">API Direct</h4>
+                    <p className="m-0">Intégrez nos solutions de paiement directement dans votre application avec nos API RESTful.</p>
+                    <Link
+                      href="/api"
                         className="btn btn-sm btn-primary border border-dark px-2 mt-2"
                       >
-                        <span>Learn more</span>
+                      <span>Documentation</span>
                         <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
-                      </a>
+                    </Link>
                     </div>
                   </div>
                 </div>
-              ))}
             </div>
             <div
               className="pre-cta vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-6 xl:mt-10"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <div className="mb-2 lg:mb-3">
+              <div className="vstack gap-4">
+                <div className="hstack justify-center gap-4">
                 <Link
-                  href={`/page-pricing-2`}
+                    href="/contact"
                   className="btn btn-md xl:btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
                 >
-                  <span>Start your free trial</span>
+                    <span>Contactez-nous</span>
+                  </Link>
+                  <Link
+                    href="/docs"
+                    className="btn btn-md xl:btn-lg btn-outline-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
+                  >
+                    <span>Documentation</span>
                 </Link>
               </div>
-              <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
-                <div className="hstack justify-center gap-2">
-                  <b>Super!</b>
-                  <div className="rating panel">
-                    <div className="hstack justify-center gap-narrow">
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
+                <div className="hstack justify-center gap-4 fs-6 text-gray-900 dark:text-white">
+                  <div className="hstack gap-2">
+                    <i className="icon unicon-shield-check fs-4 text-success"></i>
+                    <span>Paiements sécurisés</span>
                     </div>
+                  <div className="hstack gap-2">
+                    <i className="icon unicon-wallet fs-4 text-primary"></i>
+                    <span>Reversement sous 72h</span>
                   </div>
-                </div>
-                <div className="hstack justify-center gap-narrow">
-                  <span className="desc rtl:order-first">
-                    5,200+ reviews on
-                  </span>
-                  <div>
-                    <Image
-                      alt="Trustpilot"
-                      className="w-96px dark:d-none"
-                      src="/assets/images/review-logo/05.svg"
-                      width={138}
-                      height={42}
-                    />
-                    <Image
-                      alt="Trustpilot"
-                      className="w-96px d-none dark:d-inline-flex"
-                      src="/assets/images/review-logo/dark-05.svg"
-                      width={138}
-                      height={42}
-                    />
+                  <div className="hstack gap-2">
+                    <i className="icon unicon-percentage fs-4 text-warning"></i>
+                    <span>Commission compétitive</span>
                   </div>
                 </div>
               </div>

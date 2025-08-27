@@ -1,4 +1,4 @@
-import { features11 } from "@/data/features";
+import { useCases } from "@/data/use-cases";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -6,66 +6,85 @@ import React from "react";
 export default function Solutions() {
   return (
     <div
-      id="key_features"
-      className="key-features section panel overflow-hidden"
+      id="use_cases"
+      className="use-cases section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 md:py-8 xl:py-10">
-        <div className="container sm:max-w-lg">
-          <div className="section-inner panel vstack items-center gap-4 lg:gap-6 xl:gap-8">
+        <div className="container">
+          <div className="section-inner panel vstack items-center gap-6 lg:gap-8">
             <div
-              className="panel vstack items-center gap-2 xl:gap-3 sm:max-w-600px lg:max-w-700px mx-auto text-center"
+              className="panel vstack items-center gap-2 xl:gap-3 max-w-3xl mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 bg-dark text-white dark:bg-primary dark:text-dark rounded-pill">
-                Solutions
+                Cas d'usage
               </span>
               <h2 className="h3 lg:h1 m-0">
+                Une solution adaptée à{" "}
                 <span className="text-tertiary dark:text-primary">
-                  End-to-End
-                </span>{" "}
-                seamless data management solutions
+                  chaque secteur
+                </span>
               </h2>
-              <p className="fs-6 xl:fs-5 xl:px-8">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management.
+              <p className="fs-5 text-gray-600 dark:text-gray-300">
+                Découvrez comment GomboPay peut répondre aux besoins spécifiques de votre activité
               </p>
             </div>
+
             <div
-              className="features-items row child-cols-12 sm:child-cols-6 g-2 col-match"
+              className="row g-4"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {features11.map((feature, index) => (
-                <div key={index} className={feature.order}>
-                  <div className="features-item hstack items-start gap-2 lg:gap-4 p-2 lg:p-4 py-4 lg:py-6 bg-secondary dark:bg-tertiary-800 dark:bg-gradient-45 from-tertiary to-transparent border border-dark dark:border-white dark:border-opacity-15 rounded-1-5">
-                    <div className="icon-box cstack rounded w-1/3">
-                      <Image
-                        className="min-w-40px max-w-40px text-tertiary dark:text-primary"
-                        alt={feature.alt}
-                        src={feature.src}
-                        width={24}
-                        height={24}
-                        data-uc-svg=""
-                      />
-                    </div>
-                    <div className="panel">
-                      <div className="vstack gap-1">
-                        <h3 className="title h6 lg:h5 m-0">{feature.title}</h3>
-                        <p className="desc fs-6">{feature.description}</p>
+              {useCases.map((useCase, index) => (
+                <div key={index} className="col-12 md:col-6 lg:col-4">
+                  <div className={`h-100 p-4 lg:p-5 bg-white dark:bg-tertiary-800 border border-${useCase.color} dark:border-white dark:border-opacity-15 rounded-2`}>
+                    <div className="vstack gap-4">
+                      <div className="hstack gap-3">
+                        <div className={`cstack w-48px h-48px rounded-circle bg-${useCase.color} bg-opacity-10`}>
+                          <Image
+                            className={`w-24px h-24px text-${useCase.color}`}
+                            alt={useCase.title}
+                            src={useCase.icon}
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                        <h3 className="h5 m-0">{useCase.title}</h3>
                       </div>
+                      
+                      <p className="fs-6 text-gray-600 dark:text-gray-300 m-0">
+                        {useCase.description}
+                      </p>
+
+                      <ul className="nav-y gap-2 fs-6 mb-4">
+                        {useCase.features.map((feature, i) => (
+                          <li key={i} className="hstack gap-2">
+                            <i className={`icon icon-narrow unicon-checkmark-circle text-${useCase.color}`} />
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      <Link
+                        href={`/solutions#${useCase.title.toLowerCase().replace(/\s+/g, '-')}`}
+                        className={`btn btn-sm btn-outline-${useCase.color} mt-auto`}
+                      >
+                        En savoir plus
+                        <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
+                      </Link>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
-            <Link
-              href={`/page-features`}
-              className="btn btn-md btn-outline-tertiary dark:text-primary border border-dark dark:border-white dark:border-opacity-15 px-3 mx-auto rounded-pill"
-              data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 500;"
-            >
-              <span>
-                <i className="icon-1 fw-bold unicon-add" /> View all solutions
-              </span>
-            </Link>
+
+            <div className="text-center">
+              <Link
+                href="/contact"
+                className="btn btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-5 rounded-pill"
+              >
+                <span>Discuter de votre projet</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

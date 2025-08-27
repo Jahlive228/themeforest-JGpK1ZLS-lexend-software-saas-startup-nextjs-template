@@ -24,10 +24,10 @@ export default function Hero() {
               >
                 <Image
                   className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/zapier.svg"
-                  width={800}
-                  height={800}
+                  alt="payment-method"
+                  src="/assets/images/common/icons/icons8-visa.svg"
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div
@@ -37,8 +37,8 @@ export default function Hero() {
               >
                 <Image
                   className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/stipe.svg"
+                  alt="payment-method"
+                  src="/assets/images/common/icons/tmoney.svg"
                   width={800}
                   height={800}
                 />
@@ -50,10 +50,10 @@ export default function Hero() {
               >
                 <Image
                   className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/asana.svg"
-                  width={2500}
-                  height={2311}
+                  alt="payment-method"
+                  src="/assets/images/common/icons/Moov_Money_Flooz.png"
+                  width={800}
+                  height={800}
                 />
               </div>
               <div
@@ -62,12 +62,11 @@ export default function Hero() {
                 data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
               >
                 <Image
-                  className="p-2 text-dark dark:text-yellow-400"
-                  alt="brand"
-                  data-uc-svg=""
-                  src="/assets/images/apps/mailchimp.svg"
-                  width={351}
-                  height={373}
+                  className="p-2"
+                  alt="payment-method"
+                  src="/assets/images/common/icons/MTN_Logo.svg.png"
+                  width={800}
+                  height={800}
                 />
               </div>
               <div
@@ -77,8 +76,8 @@ export default function Hero() {
               >
                 <Image
                   className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/drive.svg"
+                  alt="payment-method"
+                  src="/assets/images/common/icons/Orange_logo.svg"
                   width={800}
                   height={800}
                 />
@@ -90,10 +89,10 @@ export default function Hero() {
               >
                 <Image
                   className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/bitbucket.svg"
-                  width={333}
-                  height={300}
+                  alt="payment-method"
+                  src="/assets/images/common/icons/stripe.png"
+                  width={800}
+                  height={800}
                 />
               </div>
             </div>
@@ -102,22 +101,23 @@ export default function Hero() {
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 bg-dark text-white dark:bg-primary dark:text-dark rounded-pill">
-                Get started today!
+                La solution de paiement africaine
               </span>
               <h2
                 className="h2 xl:display-5 m-0 text-center"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                Seamless integrations with your{" "}
+                Acceptez les paiements{" "}
                 <span
                   className="text-tertiary dark:text-primary"
                   data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
                 >
                   <TyperComponent
                     strings={[
-                      "existing tools",
-                      "business app",
-                      "ai automation",
+                      "Mobile Money",
+                      "Cartes bancaires",
+                      // "Wallets",
+                      // "QR Code",
                     ]}
                   />
                 </span>
@@ -127,7 +127,7 @@ export default function Hero() {
               </h2>
 
               <p className="fs-5 lg:fs-4">
-                See how we help your team solve today’s biggest challenges.
+                Simplifiez vos encaissements avec une solution tout-en-un sécurisée et adaptée à l'Afrique.
               </p>
               <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">
                 <div className="mb-2 lg:mb-3">
@@ -135,58 +135,8 @@ export default function Hero() {
                     href="#"
                     className="btn btn-md xl:btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
                   >
-                    <span>Start your free trial</span>
+                    <span>Commencer gratuitement</span>
                   </a>
-                </div>
-                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
-                  <div className="hstack justify-center gap-2">
-                    <b>Super</b>
-                    <div className="rating panel">
-                      <div className="hstack justify-center gap-narrow">
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="hstack justify-center gap-narrow">
-                    <span className="desc rtl:order-first">
-                      5,200+ reviews on
-                    </span>
-                    <div>
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px dark:d-none"
-                        src="/assets/images/review-logo/05.svg"
-                        width={138}
-                        height={42}
-                      />
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px d-none dark:d-inline-flex"
-                        src="/assets/images/review-logo/dark-05.svg"
-                        width={138}
-                        height={42}
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

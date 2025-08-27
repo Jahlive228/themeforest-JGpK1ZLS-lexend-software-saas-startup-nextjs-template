@@ -3086,6 +3086,7 @@ ul.uc-nav-sub {
   display: flex;
   gap: 0;
   align-items: center;
+  justify-content: center;
 }
 .uc-navbar-right {
   margin-left: auto;

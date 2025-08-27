@@ -908,86 +908,86 @@ export const sections2 = [
 
 export const sections3 = [
   {
-    title: "Builder Tools",
+    title: "Nos produits",
     icon: "unicon-cube",
     items: [
       {
         iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
-        title: "Email Template Builder",
-        description: "Design personalized emails that convert",
+        title: "Collecte de paiement",
+        description: "Collecte de paiement",
       },
       {
         iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
-        title: "Landing Page Builder",
-        description: "Deliver the right message to the right user",
+        title: "Boutique gomboPay",
+        description: "Boutique gomboPay",
       },
       {
         iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
-        title: "Reporting & analytics",
-        description: "Track sales & campaign performance",
+        title: "Liens de paiement",
+        description: "Liens de paiement",
       },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-07.svg",
-        title: "Chatbots, Free forever",
-        description: "Track sales & campaign performance",
-      },
+      // {
+      //   iconSrc: "/assets/images/custom-icons/home-8-icon-07.svg",
+      //   title: "Chatbots, Free forever",
+      //   description: "Track sales & campaign performance",
+      // },
     ],
-    viewAllText: "View all products",
+    viewAllText: "Voir tous les produits",
   },
-  {
-    title: "AI Solutions",
-    icon: "unicon-gamification",
-    items: [
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-04.svg",
-        title: "AI-Powered Tools",
-        description: "Say hello to your AI growth assistant",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-05.svg",
-        title: "E-commerce and retail",
-        description: "Amplify the conversation across channels",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-06.svg",
-        title: "Large Community",
-        description: "Our services offerings",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-08.svg",
-        title: "AI-Powered Automation",
-        description: "Our services offerings",
-      },
-    ],
-    viewAllText: "View all solutions",
-  },
-  {
-    title: "More Products",
-    icon: "unicon-cube",
-    items: [
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
-        title: "Email Template Builder",
-        description: "Design personalized emails that convert",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
-        title: "Landing Page Builder",
-        description: "Deliver the right message to the right user",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
-        title: "Reporting & analytics",
-        description: "Track sales & campaign performance",
-      },
-      {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-07.svg",
-        title: "Chatbots, Free forever",
-        description: "Track sales & campaign performance",
-      },
-    ],
-    viewAllText: "View all products",
-  },
+  // {
+  //   title: "AI Solutions",
+  //   icon: "unicon-gamification",
+  //   items: [
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-04.svg",
+  //       title: "AI-Powered Tools",
+  //       description: "Say hello to your AI growth assistant",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-05.svg",
+  //       title: "E-commerce and retail",
+  //       description: "Amplify the conversation across channels",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-06.svg",
+  //       title: "Large Community",
+  //       description: "Our services offerings",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-08.svg",
+  //       title: "AI-Powered Automation",
+  //       description: "Our services offerings",
+  //     },
+  //   ],
+  //   viewAllText: "View all solutions",
+  // },
+  // {
+  //   title: "More Products",
+  //   icon: "unicon-cube",
+  //   items: [
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
+  //       title: "Email Template Builder",
+  //       description: "Design personalized emails that convert",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
+  //       title: "Landing Page Builder",
+  //       description: "Deliver the right message to the right user",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
+  //       title: "Reporting & analytics",
+  //       description: "Track sales & campaign performance",
+  //     },
+  //     {
+  //       iconSrc: "/assets/images/custom-icons/home-8-icon-07.svg",
+  //       title: "Chatbots, Free forever",
+  //       description: "Track sales & campaign performance",
+  //     },
+  //   ],
+  //   viewAllText: "View all products",
+  // },
 ];
 
 export const sections4 = [

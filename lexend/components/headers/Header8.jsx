@@ -72,34 +72,34 @@ export default function Header8() {
               data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"
             >
               <div className="uc-navbar-left">
-                <div className="uc-logo ltr:ms-1 rtl:me-1">
+                <div className="d-flex align-items-center justify-content-center">
                   <Link
-                    className="panel text-none"
-                    href={`/home-9`}
-                    style={{ width: 140 }}
+                    href={`/`}
+                    className="d-inline-flex align-items-center"
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-light.svg"
-                      width={148}
+                      alt="gomboPay"
+                      src="/assets/images/logo/logo-removebg-preview.png"
+                      width={60}
                       height={39}
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-dark.svg"
-                      width={148}
+                      alt="gomboPay"
+                      src="/assets/images/logo/logo-removebg-preview.png"
+                      width={60}
                       height={39}
                     />
                   </Link>
+                  <span className="text-white fs-4 fw-semibold ms-2">gomboPay</span>
                 </div>
               </div>
               <div className="uc-navbar-center">
                 <ul className="uc-navbar-nav fs-5 fw-bold gap-3 lg:gap-4 d-none lg:d-flex">
                   <li className="has-dd-menu">
                     <a href="#" role="button" aria-haspopup="true">
-                      Products{" "}
+                      Solutions{" "}
                       <span
                         data-uc-navbar-parent-icon=""
                         className="uc-icon uc-navbar-parent-icon"
@@ -124,12 +124,26 @@ export default function Header8() {
                     >
                       <div className="uc-dropbar-content p-3 lg:p-6">
                         <div className="container container-full">
-                          <div className="row child-cols-4 gx-6">
-                            <ProductPages />
+                          <div className="row child-cols-3 gx-6">
+                            <div className="col">
+                              <h5 className="h6 mb-3">Collect</h5>
+                              <p className="fs-7 text-gray-600 mb-2">Encaissez des paiements en ligne en toute sécurité via Mobile Money, cartes bancaires et wallets.</p>
+                              <Link href="/collect" className="btn btn-sm btn-primary">En savoir plus</Link>
+                            </div>
+                            <div className="col">
+                              <h5 className="h6 mb-3">Liens de Paiement</h5>
+                              <p className="fs-7 text-gray-600 mb-2">Créez des liens de paiement uniques et sécurisés pour vos clients.</p>
+                              <Link href="/payment-links" className="btn btn-sm btn-primary">En savoir plus</Link>
+                            </div>
+                            <div className="col">
+                              <h5 className="h6 mb-3">Mass Payout</h5>
+                              <p className="fs-7 text-gray-600 mb-2">Effectuez des transferts groupés vers des comptes Mobile Money et wallets.</p>
+                              <Link href="/mass-payout" className="btn btn-sm btn-primary">En savoir plus</Link>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div className="uc-dropbar-footer p-2 xl:p-4 xl:px-6 bg-primary dark:bg-tertiary-600 dark:bg-gradient-45 from-tertiary to-transparent text-dark dark:text-white border-top border-dark dark:border-white dark:border-opacity-15">
+                      {/* <div className="uc-dropbar-footer p-2 xl:p-4 xl:px-6 bg-primary dark:bg-tertiary-600 dark:bg-gradient-45 from-tertiary to-transparent text-dark dark:text-white border-top border-dark dark:border-white dark:border-opacity-15">
                         <ul className="nav-x gap-4 fs-8">
                           <li>
                             <a href="#">
@@ -156,12 +170,12 @@ export default function Header8() {
                             </a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
                   <li className="has-dd-menu">
                     <a href="#" role="button" aria-haspopup="true">
-                      Solutions{" "}
+                      Développeurs{" "}
                       <span
                         data-uc-navbar-parent-icon=""
                         className="uc-icon uc-navbar-parent-icon"
@@ -184,53 +198,44 @@ export default function Header8() {
                         maxWidth: 1452,
                       }}
                     >
-                      <div className="uc-dropbar-content">
+                      <div className="uc-dropbar-content p-3 lg:p-6">
                         <div className="container container-full">
-                          <div className="uc-dropbar-inner p-2">
-                            <div className="row col-match justify-between">
-                              <div className="col-8">
-                                <div className="panel vstack gap-4 p-4">
-                                  <div className="vstack gap-narrow flex-none">
-                                    <h5 className="h5 xl:h4 m-0">
-                                      Workflow quick-start automation guide
-                                    </h5>
-                                    <p className="fs-7 opacity-60">
-                                      How Lexend can help you automate your work
-                                    </p>
+                          <div className="row">
+                            <div className="col-8">
+                              <div className="panel vstack gap-4">
+                                <div className="vstack gap-2">
+                                  <h5 className="h5 m-0">API bien documentées et faciles à utiliser</h5>
+                                  <p className="fs-7 text-gray-600">
+                                    Intégrez rapidement nos solutions de paiement avec nos API RESTful et nos SDK
+                                  </p>
+                                </div>
+                                <div className="row child-cols-2 gx-4">
+                                  <div className="col">
+                                    <div className="p-4 bg-light rounded-2">
+                                      <h6 className="mb-2">Documentation</h6>
+                                      <p className="fs-7 mb-3">Guide complet d'intégration et référence API</p>
+                                      <Link href="/docs" className="btn btn-sm btn-primary">Explorer</Link>
+                                    </div>
                                   </div>
-                                  <div className="row child-cols-4 gx-4 col-match justify-between">
-                                    <Solutions />
+                                  <div className="col">
+                                    <div className="p-4 bg-light rounded-2">
+                                      <h6 className="mb-2">SDK & Plugins</h6>
+                                      <p className="fs-7 mb-3">Bibliothèques et plugins pour différentes plateformes</p>
+                                      <Link href="/sdk" className="btn btn-sm btn-primary">Télécharger</Link>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-4">
-                                <div className="panel vstack gap-4 p-4 bg-primary dark:bg-tertiary-600 dark:bg-gradient-45 from-tertiary to-transparent border border-dark dark:border-white dark:border-opacity-15 rounded-default">
-                                  {categories.map((category, index) => (
-                                    <div
-                                      key={index}
-                                      className="panel category-section"
-                                    >
-                                      <h5 className="h6">{category.title}</h5>
-                                      <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
-                                        {category.links.map(
-                                          (link, linkIndex) => (
-                                            <li key={linkIndex}>
-                                              {link.href === "#" ? (
-                                                <a href={link.href}>
-                                                  {link.text}
-                                                </a>
-                                              ) : (
-                                                <Link href={link.href}>
-                                                  {link.text}
-                                                </Link>
-                                              )}
-                                            </li>
-                                          )
-                                        )}
-                                      </ul>
-                                    </div>
-                                  ))}
-                                </div>
+                            </div>
+                            <div className="col-4">
+                              <div className="panel p-4 bg-primary dark:bg-tertiary-600 rounded-2">
+                                <h6 className="text-white mb-3">Ressources</h6>
+                                <ul className="nav-y gap-2 text-white">
+                                  <li><Link href="/status">Statut du système</Link></li>
+                                  <li><Link href="/changelog">Changelog</Link></li>
+                                  <li><Link href="/support">Support technique</Link></li>
+                                  <li><Link href="/sandbox">Environnement sandbox</Link></li>
+                                </ul>
                               </div>
                             </div>
                           </div>
@@ -239,13 +244,7 @@ export default function Header8() {
                     </div>
                   </li>
                   <li>
-                    <Link href={`/blog-sidebar`}>Blog</Link>
-                  </li>
-                  <li>
-                    <Link href={`/page-pricing-2`}>Pricing</Link>
-                  </li>
-                  <li>
-                    <Link href={`/page-integrations`}>Integrations</Link>
+                    <Link href={`/page-pricing-2`}>Tarifs</Link>
                   </li>
                 </ul>
               </div>
@@ -254,7 +253,7 @@ export default function Header8() {
                   className="btn btn-md dark:text-white border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent fs-5 lg:px-3 d-none lg:d-inline-flex rounded-pill"
                   href={`/page-contact-2`}
                 >
-                  Contact sales
+                  Contactez-nous
                 </Link>
                 <a
                   className="btn btn-md btn-tertiary w-48px h-48px d-inline-flex lg:d-none"

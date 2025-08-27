@@ -1,19 +1,16 @@
 import Footer8 from "@/components/footers/Footer8";
 import Header8 from "@/components/headers/Header8";
-import Brands from "@/components/homes/home-9/Brands";
 import Faqs from "@/components/homes/home-9/Faqs";
 import Features from "@/components/homes/home-9/Features";
 import Hero from "@/components/homes/home-9/Hero";
-import Pricing from "@/components/homes/home-9/Pricing";
 import Process from "@/components/homes/home-9/Process";
 import Solutions from "@/components/homes/home-9/Solutions";
-import Testimonials from "@/components/homes/home-9/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 9 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GomboPay - Solution de paiement en ligne",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GomboPay - Solution de paiement en ligne",
 };
 export default function page() {
   return (
@@ -25,11 +22,11 @@ export default function page() {
           <div id="wrapper" className="wrap">
             <Hero />
             <Process />
-            <Brands />
+            {/* <Brands /> */}
             <Features />
             <Solutions />
-            <Pricing />
-            <Testimonials />
+            {/* <Pricing /> */}
+            {/* <Testimonials /> */}
             <Faqs />
           </div>
           <Footer8 />
